@@ -1,12 +1,12 @@
 # IDS_706 - Data Engineering Systems 
-## Mini-Project 2 : Pandas Descriptive Statistics Script
+## Individual-Project 1 : Continuous Integration using GitHub Actions of Python Data Science Project
 
 [![CI](https://github.com/nogibjj/afraa_noureen-IDS_706-Mini_Project_2/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/afraa_noureen-IDS_706-Mini_Project_2/actions/workflows/cicd.yml)
 
 ***
 
 ### Goal of the Project
-Mini-Project 2 modifies [this existing Github template](https://github.com/afraa-n/IDS_706-Data_Engineering_Systems) by handling the loading and manipulation of a movies dataset stored in a `.csv` file using the Pandas library. 
+Individual-Project 1 modifies [this existing Github template](https://github.com/afraa-n/IDS_706-Data_Engineering_Systems) by handling the loading and manipulation of a movies dataset stored in a `.csv` file using the Pandas library. 
 
 This entails extracting meaningful insights from the dataset by generating descriptive statistics. This project also represents the relationship between popularity ratings and average ratings out of 10 as a scatter plot. This project also identifies and presents the movies with the highest ratings from the dataset. 
 
