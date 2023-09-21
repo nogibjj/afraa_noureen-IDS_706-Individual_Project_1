@@ -17,7 +17,9 @@ def infant_mortality_countries(countries_info_df):
     Use common functions from lib.py to generate descriptive statistics over 
     infnat moratlity rate worldwide.
     """
-    highest_infant_mortality, median, mean, std_deviation = lib.infant_mortality(countries_info_df)
+    highest_infant_mortality, median, mean, std_deviation = lib.infant_mortality(
+        countries_info_df
+        )
 
     print("Descriptive Statistics on Infant Mortality worldwide:")
     print("Mean (Infant Moratlity Rate) = ", mean)
