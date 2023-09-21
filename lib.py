@@ -1,5 +1,4 @@
 """main module"""
-import pandas as pd
 import matplotlib.pyplot as plt
 
 def display_contries_info(countries_info_df):

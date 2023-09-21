@@ -1,10 +1,8 @@
 """script module using common functions from lib.py"""
-import pandas as pd
 import lib
 
-countries_info_df = pd.read_csv("world-data-2023.csv")
 
-def descriptive_stats_countries():
+def descriptive_stats_countries(countries_info_df):
     """
     Use common funtions from lib.py to generate descriptive statistics across 
     differnt metrics from countries worldwide.
@@ -12,8 +10,9 @@ def descriptive_stats_countries():
     desc_stats = lib.display_contries_info(countries_info_df)
     print("Descriptive Statistics of countries across the globe:\n")
     print(desc_stats)
+    return desc_stats
 
-def infant_mortality_countries():
+def infant_mortality_countries(countries_info_df):
     """
     Use common functions from lib.py to generate descriptive statistics over 
     infnat moratlity rate worldwide.
@@ -26,8 +25,9 @@ def infant_mortality_countries():
     print("Standard Deviation (Infant Moratlity Rate) = ", std_deviation)
     print("\nDetails of the country with the highest infant mortality rate is: \n")
     print(highest_infant_mortality)
+    return median, mean, std_deviation
 
-def plot_birthrate_infantmortality():
+def plot_birthrate_infantmortality(countries_info_df):
     """
     Use common functions from lib.py to generate scatter plot for 
     Birth Rate vs Infant Moratlity Rate
