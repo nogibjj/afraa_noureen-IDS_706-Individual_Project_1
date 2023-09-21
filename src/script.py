@@ -7,7 +7,7 @@ def descriptive_stats_countries(countries_info_df):
     Use common funtions from lib.py to generate descriptive statistics across 
     differnt metrics from countries worldwide.
     """
-    desc_stats = lib.display_contries_info(countries_info_df)
+    desc_stats = lib.display_countries_info(countries_info_df)
     print("Descriptive Statistics of countries across the globe:\n")
     print(desc_stats)
     return desc_stats

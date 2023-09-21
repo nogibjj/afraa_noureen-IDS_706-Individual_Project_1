@@ -1,7 +1,7 @@
 """main module"""
 import matplotlib.pyplot as plt
 
-def display_contries_info(countries_info_df):
+def display_countries_info(countries_info_df):
     """
     Display basic info about all countries worldwide - covering a wide range of 
     indicators and attributes such as demographic statistics, economic indicators,

@@ -5,9 +5,9 @@ import pandas as pd
 sys.path.append("/workspaces/afraa_noureen-IDS_706-Individual_Project_1/src")
 
 import src.script as script
-countries_info_df = pd.read_csv("../world-data-2023.csv")
+countries_info_df = pd.read_csv("world-data-2023.csv")
 
-def test_main():
+def test_script():
     """
     testing function for script.py
     """
@@ -22,4 +22,4 @@ def test_main():
     assert std_deviation == 19.548058157595808
 
 if __name__ == "__main__":
-    test_main()
+    test_script()
