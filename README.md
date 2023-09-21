@@ -1,7 +1,7 @@
 # IDS_706 - Data Engineering Systems 
 ## Individual-Project 1 : Continuous Integration using GitHub Actions of Python Data Science Project
 
-[![CI](https://github.com/nogibjj/afraa_noureen-IDS_706-Mini_Project_2/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/afraa_noureen-IDS_706-Mini_Project_2/actions/workflows/cicd.yml)
+[![OnInstall](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/actions/workflows/install.yml)
 
 ***
 
