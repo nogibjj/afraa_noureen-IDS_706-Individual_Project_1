@@ -28,6 +28,9 @@ def test_infant_mortality():
     assert std_deviation == 19.548058157595808
 
 def test_plot_scatter():
+    """
+    test the scatter plot function
+    """
     lib.plot_scatter(countries_info_df)
     scatter = plt.gcf()
     assert len(scatter.axes) > 0
