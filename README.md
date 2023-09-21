@@ -83,29 +83,30 @@ To run the project, you can use the Makefile and follow these commands:
 
 1. On running ```make lint```:
 
-![make lint](https://github.com/nogibjj/afraa_noureen-IDS_706-Mini_Project_2/assets/143756865/0d61460a-1e5e-434d-ab62-2e067781663d)
+![make lint](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/5ae31f5a-19f3-4810-849e-b18b8dbbaea7)
 
 2. On running ```make test```, it passes the test:
 
-![make test](https://github.com/nogibjj/afraa_noureen-IDS_706-Mini_Project_2/assets/143756865/fc55736c-ab86-4b7e-95f6-4c695adc1c37)
+![make test 1](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/156feb20-1776-438a-ba58-a514f628314d)
+![make test 2](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/0d8d9f26-db5a-43f1-8736-bbecc2b9207e)
 
 3. On running ```make format```:
 
-![make format](https://github.com/nogibjj/afraa_noureen-IDS_706-Mini_Project_2/assets/143756865/e9f384ce-2d4b-49e4-af50-bec7981e76d7)
+![make format](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/997903ed-2969-438a-aa92-8aaabc263844)
 
 ***
 
-### Output from test_main.py
+### Output from Descriptive Statistics
 
-On running test_main.py, it displays the descriptive statistics from the dataset as well as the top rated movies. This file generates and displays the plot for popularity vs vote_average. It also ensures that there is a valid value returned from display_highest_votes() (from main.py) using the assert statement.
+On running the test script/notebook, it displays the descriptive statistics from the dataset as well as the country with the highest infant mortality rate. This file generates and displays the plot for Birth Rate vs Infant Mortality Rate. It also ensures that valid values are returned from the scripts using the assert statements.
 
-![test_main 1](https://github.com/nogibjj/afraa_noureen-IDS_706-Mini_Project_2/assets/143756865/08cab468-0621-441d-b76a-1c72306c77f8)
-![test_main 2](https://github.com/nogibjj/afraa_noureen-IDS_706-Mini_Project_2/assets/143756865/528f973e-7d6c-4a74-9250-4ee75f343129)
+![desc stats](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/aae7b62a-f3a1-4a88-913c-21728ca1f685)
+![infant mortality stats](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/73d2acc3-fa83-4cd0-af5c-6d3a9c99032b)
 
 ***
 
-### Data Visualization (popularity vs vote_average scatter plot)
+### Data Visualization (Birth Rate vs Infant Mortality scatter plot)
 
-![graph](https://github.com/nogibjj/afraa_noureen-IDS_706-Mini_Project_2/assets/143756865/ca9213e0-95c3-4a9a-b6f8-ceec80b95a61)
+![plot](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/b9a0f5d2-15ee-4a91-b154-0b39cf374a24)
 
 ***
