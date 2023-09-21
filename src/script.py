@@ -1,4 +1,7 @@
 """script module using common functions from lib.py"""
+import sys
+sys.path.insert(1, './src')
+
 import lib
 
 
