@@ -24,29 +24,29 @@ Link:
 
 ### Structure of this Project
 
-1. Jupyter Notebook - desc_stats.ipynb (under src):
-   - This notebook contains cells that perform descriptive statistics using Polars Library.
+1. Jupyter Notebook - `desc_stats.ipynb` (under src):
+   - This notebook contains cells that perform descriptive statistics using Pandas Library.
    - It is also tested using nbval plugin for pytest.
 
-2. Python Script - script.py (under src):
-   - This script performs the same descriptive statistics (as desc_stats.ipynb) using Polars Library.
+2. Python Script - `script.py` (under src):
+   - This script performs the same descriptive statistics (as *desc_stats.ipynb*) using Pandas Library.
 
-3. Python file - lib.py (under src):
-   - This file contains the common code shared between the script.py and desc_stats.ipynb.
+3. Python file - `lib.py` (under src):
+   - This file contains the common code shared between the *script.py* and *desc_stats.ipynb*.
 
-4. Makefile:
+4. `Makefile`:
    - Runs all tests (including the notebook, script and lib).
    - Formats code with Python black.
    - Lints code with Ruff.
    - Installs code via:  pip install -r requirements.txt
 
-5. test_script.py:
-   - This file is used to test the python script - script.py
+5. `test_script.py`:
+   - This file is used to test the python script - *script.py*
 
-6. test_lib.py:
-   - This file is used to test the python file - lib.py
+6. `test_lib.py`:
+   - This file is used to test the python file - *lib.py*
 
-7. Requirements.txt:
+7. `requirements.txt`:
    -  This file lists all the external libraries and dependencies required for the project to run correctly. 
 
 8. GitHub Actions:
