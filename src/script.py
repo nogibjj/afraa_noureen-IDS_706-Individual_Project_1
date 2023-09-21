@@ -1,8 +1,8 @@
 """script module using common functions from lib.py"""
 import sys
+import lib
 sys.path.insert(1, './src')
 
-import lib
 
 
 def descriptive_stats_countries(countries_info_df):
