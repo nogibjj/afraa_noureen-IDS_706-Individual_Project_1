@@ -8,18 +8,51 @@
 ***
 
 ### Goal of the Project
-Individual-Project 1 modifies [this existing Github template](https://github.com/afraa-n/IDS_706-Data_Engineering_Systems) by handling the loading and manipulation of a movies dataset stored in a `.csv` file using the Pandas library. 
-
-This entails extracting meaningful insights from the dataset by generating descriptive statistics. This project also represents the relationship between popularity ratings and average ratings out of 10 as a scatter plot. This project also identifies and presents the movies with the highest ratings from the dataset. 
+Individual-Project 1 modifies [this existing Github template](https://github.com/afraa-n/IDS_706-Data_Engineering_Systems) by handling the loading and manipulation of a Global Country Information Dataset 2023 stored in a `.csv` file using the Pandas library. This entails extracting meaningful insights from the dataset by generating descriptive statistics. This project also represents the relationship between Birth Rate and Infant Mortality Rate across countries worldwide as a scatter plot. This project also identifies and presents the details of the country with the highest Infant Mortality Rate from the dataset. 
 
 The accompanying Makefile automates essential development tasks, making it easier for developers to maintain code quality, run tests, and streamline the development workflow.
-
-Note: Summary Report on the dataset is generated as a `.html` file.  
 
 Dataset used: [Global Country Information Dataset 2023 Data Set](https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023)
 
 ***
 
+### YouTube Link to the Demo
+
+Link:
+
+***
+
+### Structure of this Project
+
+1. Jupyter Notebook - desc_stats.ipynb (under src):
+   - This notebook contains cells that perform descriptive statistics using Polars Library.
+   - It is also tested using nbval plugin for pytest.
+
+2. Python Script - script.py (under src):
+   - This script performs the same descriptive statistics (as desc_stats.ipynb) using Polars Library.
+
+3. Python file - lib.py (under src):
+   - This file contains the common code shared between the script.py and desc_stats.ipynb.
+
+4. Makefile:
+   - Runs all tests (including the notebook, script and lib).
+   - Formats code with Python black.
+   - Lints code with Ruff.
+   - Installs code via:  pip install -r requirements.txt
+
+5. test_script.py:
+   - This file is used to test the python script - script.py
+
+6. test_lib.py:
+   - This file is used to test the python file - lib.py
+
+7. Requirements.txt:
+   -  This file lists all the external libraries and dependencies required for the project to run correctly. 
+
+8. GitHub Actions:
+   - Performs all four Makefile commands with badges for each one in the README.md
+
+***
 ### Commands to Run the Repo
 
 To run the project, you can use the Makefile and follow these commands:
