@@ -14,7 +14,7 @@ The accompanying Makefile automates essential development tasks, making it easie
 
 Note: Summary Report on the dataset is generated as a `.html` file.  
 
-Dataset used: [Top-Rated Movies Data Set](https://www.kaggle.com/datasets/khalidalam980/top-rated-movies-data-set)
+Dataset used: [Global Country Information Dataset 2023 Data Set](https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023)
 
 ***
 
