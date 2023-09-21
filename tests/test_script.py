@@ -1,8 +1,11 @@
 """test_script module"""
+import sys
 import pandas as pd
-import script
 
-countries_info_df = pd.read_csv("world-data-2023.csv")
+sys.path.append("/workspaces/afraa_noureen-IDS_706-Individual_Project_1/src")
+
+import src.script as script
+countries_info_df = pd.read_csv("../world-data-2023.csv")
 
 def test_main():
     """
