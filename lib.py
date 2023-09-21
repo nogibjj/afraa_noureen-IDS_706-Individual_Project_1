@@ -4,8 +4,9 @@ import matplotlib.pyplot as plt
 
 def display_contries_info(countries_info_df):
     """
-    Display basic info about all countries worldwide - covering a wide range of indicators and attributes such as 
-    demographic statistics, economic indicators, environmental factors, healthcare metrics and education statistics.
+    Display basic info about all countries worldwide - covering a wide range of indicators 
+    and attributes such as demographic statistics, economic indicators, environmental factors, 
+    healthcare metrics and education statistics.
     """
     return countries_info_df.describe()
 
@@ -24,8 +25,8 @@ def plot_scatter(countries_info_df):
 
 def infant_mortality(countries_info_df):
     """
-    Display descriptive statistics related to infant mortality rate and find out the country with the 
-    highest Infant Mortality Rate
+    Display descriptive statistics related to infant mortality rate and 
+    find out the country with the highest Infant Mortality Rate
     """
     high_infant_mortality_df = countries_info_df.query("`Infant mortality` == `Infant mortality`.max()")
     median = countries_info_df["Infant mortality"].median()
