@@ -83,12 +83,12 @@ To run the project, you can use the Makefile and follow these commands:
 
 1. On running ```make lint```:
 
-![make lint](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/5ae31f5a-19f3-4810-849e-b18b8dbbaea7)
+![make lint](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/6493bb36-19c5-427b-9b37-d0513f4fe9bd)
 
 2. On running ```make test```, it passes the test:
 
-![make test 1](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/156feb20-1776-438a-ba58-a514f628314d)
-![make test 2](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/0d8d9f26-db5a-43f1-8736-bbecc2b9207e)
+![make test 1](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/ad180ea8-5d4a-4e4d-9d85-cdd8288b273f)
+![make test 2](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/62ea58db-2c87-418e-b637-138031dc07b2)
 
 3. On running ```make format```:
 
@@ -100,8 +100,8 @@ To run the project, you can use the Makefile and follow these commands:
 
 On running the test script/notebook, it displays the descriptive statistics from the dataset as well as the country with the highest infant mortality rate. This file generates and displays the plot for Birth Rate vs Infant Mortality Rate. It also ensures that valid values are returned from the scripts using the assert statements.
 
-![desc stats](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/aae7b62a-f3a1-4a88-913c-21728ca1f685)
-![infant mortality stats](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/73d2acc3-fa83-4cd0-af5c-6d3a9c99032b)
+![desc stats](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/196bbf2b-d2c1-4382-872a-8f3f9419d9b7)
+![infant mortality stats](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/efb37169-6de8-4ede-bead-b848a34406c0)
 
 ***
 
