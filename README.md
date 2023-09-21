@@ -87,8 +87,8 @@ To run the project, you can use the Makefile and follow these commands:
 
 2. On running ```make test```, it passes the test:
 
-![make test 1](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/ad180ea8-5d4a-4e4d-9d85-cdd8288b273f)
-![make test 2](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/62ea58db-2c87-418e-b637-138031dc07b2)
+![make test 1](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/bfa12827-6271-4e73-be87-21f7d6df89d7)
+![make test 2](https://github.com/nogibjj/afraa_noureen-IDS_706-Individual_Project_1/assets/143756865/60e6e999-94ca-46b6-984b-49bf164f2203)
 
 3. On running ```make format```:
 
